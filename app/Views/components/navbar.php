@@ -1,25 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-primary navbar-dark px-5">
-    <div class="container-fluid">
+    <div class="container-fluid d-flex justify-content-evenly">
         <a class="navbar-brand" href="#">Institute Inc</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control h-25 me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-info btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
+        <a class="text-light text-decoration-none" href="#">Contact</a>
     </div>
 </nav>
