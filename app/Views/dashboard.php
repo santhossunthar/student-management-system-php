@@ -11,43 +11,53 @@
 </head>
 
 <body>
-    <header>
-        <?php include("components/navbar.php") ?>
-    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 bg-primary vh-100">
+                <?php include("components/dashboard/sidebar.php") ?>
+            </div>
 
-    <main>
-        <div class="container-fluid">
-            <div class="row mx-5">
-                <aside class="col-md-2 my-5">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action active">
-                            Students
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            Lecturers
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            Courses
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            Attendances
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            Payments
-                        </a>
-                    </div>
-                </aside>
+            <div class="col-md-9 p-0">
+                <?php include("components/dashboard/header.php") ?>
+                <main class="main-dashboard">
+                    <section id="login">
+                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
+                                justify-content-center align-items-center p-5 m-3">
+                            <h4 class="text text-dark">Dashboard</h4>
+                        </div>
+                    </section>
 
-                <section id="login" class="col-md-10 my-5">
-                    <div class="container bg-secondary w-100 h-100 d-flex flex-column 
-                justify-content-center align-items-center p-5">
-                        <h4 class="text text-dark">Dashboard</h4>
-                    </div>
-                </section>
+                    <section id="login">
+                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
+                                justify-content-center align-items-center p-5 m-3">
+                            <h4 class="text text-dark">Dashboard</h4>
+                        </div>
+                    </section>
+
+                    <section id="login">
+                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
+                                justify-content-center align-items-center p-5 m-3">
+                            <h4 class="text text-dark">Dashboard</h4>
+                        </div>
+                    </section>
+
+                    <section id="login">
+                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
+                                justify-content-center align-items-center p-5 m-3">
+                            <h4 class="text text-dark">Dashboard</h4>
+                        </div>
+                    </section>
+
+                    <section id="login">
+                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
+                                justify-content-center align-items-center p-5 m-3">
+                            <h4 class="text text-dark">Dashboard</h4>
+                        </div>
+                    </section>
+                </main>
             </div>
         </div>
-
-    </main>
+    </div>
 
     <footer>
         <?php include("components/footer.php") ?>
