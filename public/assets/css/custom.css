@@ -10890,4 +10890,24 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main-dashboard {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.brand-logo img {
+  width: 220px;
 }/*# sourceMappingURL=custom.css.map */

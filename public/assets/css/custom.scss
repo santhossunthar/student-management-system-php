@@ -3,3 +3,25 @@ $secondary: #AAD7D9;
 $info: #E5E1DA;
 
 @import "../bootstrap/scss/bootstrap.scss";
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-dashboard {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.brand-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+
+    img {
+        width: 220px;
+    }
+}
