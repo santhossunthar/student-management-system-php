@@ -20,7 +20,7 @@
                 <small id="authAlert" class="form-text text-danger">Login failed!</small>
             </div>
             <div class="register mt-2">
-                <a href="<?php echo base_url('auth/register'); ?>" class="btn btn-primary w-100">Create an Account</a>
+                <a href="<?php echo base_url('register'); ?>" class="btn btn-primary w-100">Create an Account</a>
             </div>  
         </form>
     </div>

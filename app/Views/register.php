@@ -38,7 +38,7 @@
                         <small id="authAlert" class="form-text text-danger">Account creation failed!</small>
                     </div>
                     <div class="login mt-3">
-                        <a href="<?php echo base_url('auth/login'); ?>" class="btn btn-primary w-100">Login</a>
+                        <a href="<?php echo base_url('login'); ?>" class="btn btn-primary w-100">Login</a>
                     </div>
                 </form>
             </div>
