@@ -10921,4 +10921,15 @@ body {
 }
 .sidebar-item:hover {
   background-color: #5a9aa5 !important;
+}
+
+.form-input {
+  width: 14rem;
+  height: 1.6rem;
+  outline: none;
+}
+
+.form-btn {
+  width: 5rem;
+  height: 2.2rem;
 }/*# sourceMappingURL=custom.css.map */
