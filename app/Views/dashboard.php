@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3 bg-primary vh-100">
+            <div class="col-md-3 bg-primary p-0 vh-100">
                 <?php include("components/dashboard/sidebar.php") ?>
             </div>
 

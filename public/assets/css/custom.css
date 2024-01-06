@@ -10910,4 +10910,15 @@ body {
 }
 .brand-logo img {
   width: 220px;
+}
+
+.sidebar-item-active {
+  background-color: #5a9aa5 !important;
+}
+
+.sidebar-item {
+  background-color: #487b84 !important;
+}
+.sidebar-item:hover {
+  background-color: #5a9aa5 !important;
 }/*# sourceMappingURL=custom.css.map */

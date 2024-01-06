@@ -25,3 +25,15 @@ body {
         width: 220px;
     }
 }
+
+.sidebar-item-active {
+    background-color: hsl(189,29.7%,50%) !important;
+}
+
+.sidebar-item {
+    background-color: hsl(189,29.7%,40%) !important;
+
+    &:hover {
+        background-color: hsl(189,29.7%,50%) !important;
+    }
+}
