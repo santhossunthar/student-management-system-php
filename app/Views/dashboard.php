@@ -14,33 +14,16 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3 bg-primary p-0 vh-100">
-                <?php include("components/dashboard/sidebar.php") ?>
+                <?php include("components/main/sidebar.php") ?>
             </div>
 
             <div class="col-md-9 p-0">
-                <?php include("components/dashboard/header.php") ?>
+                <div class="container-fluid bg-light p-2 ps-3 pe-3 d-flex justify-content-between">
+                    <h5>Dashboard</h5>
+                    <h5>Logout</h5>
+                </div>
+                
                 <main class="main-dashboard">
-                    <section id="login">
-                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
-                                justify-content-center align-items-center p-5 m-3">
-                            <h4 class="text text-dark">Dashboard</h4>
-                        </div>
-                    </section>
-
-                    <section id="login">
-                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
-                                justify-content-center align-items-center p-5 m-3">
-                            <h4 class="text text-dark">Dashboard</h4>
-                        </div>
-                    </section>
-
-                    <section id="login">
-                        <div class="container bg-secondary w-100 h-100 d-flex flex-column 
-                                justify-content-center align-items-center p-5 m-3">
-                            <h4 class="text text-dark">Dashboard</h4>
-                        </div>
-                    </section>
-
                     <section id="login">
                         <div class="container bg-secondary w-100 h-100 d-flex flex-column 
                                 justify-content-center align-items-center p-5 m-3">
